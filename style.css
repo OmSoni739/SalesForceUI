@@ -1,0 +1,684 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{ 
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+}
+
+#header{
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.texts{
+    color: rgb(30, 21, 165);
+    display: flex;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.texts:hover{
+    color: rgb(15, 190, 248);
+}
+
+#contactDetails:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+#login{
+    display: flex;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#login:hover{
+    background-color:lightblue;
+}
+
+#try{
+    background-color: green;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#try:hover{
+    background-color: rgb(2, 43, 2);
+}
+
+.icon{
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+
+.icon:hover{
+    background-color:lightblue;
+}
+
+#fakeHeader{
+    width: 100%;
+    height: 10%;
+}
+
+#logo{
+    height: 70%;
+}
+
+#logo img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+#page1{
+    width: 100%;
+    height: 90%;
+    /* background-color: rgb(182, 219, 33); */
+}
+
+#strip{
+    background-color: blue;
+    width: 100%;
+    height: 7%;
+    color: white;
+     display: flex;
+     align-items: center;
+      justify-content: center;
+}
+
+#strip u{
+    margin-left: 30px;
+    font-weight: lighter;
+}
+
+#strip u:hover{
+    text-decoration: none;
+}
+
+#content{
+    width: 100%;
+    height: 78%;
+    /* background-color: wheat; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#box1{
+    width: 47%;
+    height: 90%;
+    background-color:white;
+}
+
+#box1 h1{
+    font-weight: 600;
+    color: rgb(35, 35, 104);
+    font-size: 50px;
+    margin: 30px 50px;
+}
+
+#box1 p{
+  font-size: x-large;
+  margin: 30px 50px;
+  font-size:27px;
+}
+
+#buttons{
+    display: flex;
+    margin-top: 20%;
+    cursor: pointer;
+}
+
+#button1{
+    color: white;
+    background-color: blue;
+    padding: 15px 15px;
+    width: 20%;
+    margin-left: 50px;
+    border-radius: 7px;
+}
+
+#button1:hover{
+    background-color: rgb(15, 15, 85);
+}
+
+#button2{
+    color:blue;
+    background-color:white;
+    border: 1px solid blue;
+    padding: 15px 15px;
+    width: 20%;
+    margin-left: 10px;
+    border-radius: 7px;
+text-align: center;
+}
+
+#button2:hover{
+    color: rgb(15, 15, 85);
+    border-color: rgb(15, 15, 85);
+    background-color: #aacbff;
+}
+
+#box2{
+    width: 47%;
+    height: 90%;
+    background-color: white;
+}
+
+#box2 img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+
+#heading{
+    width: 100%;
+    height: 16%;
+    background-color: white;
+    color: rgb(7, 15, 107);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: larger;
+}
+
+#page2{
+    width: 100%;
+    height: 90%;
+    background-color: white;
+}
+
+#blocks{
+    width: 100%;
+    height: 70%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#block1{
+    width: 20%;
+    height: 80%;
+    background-color: white;
+    margin-right: 40px;
+    border-radius: 10%;
+    box-shadow: 0 8px 17px rgba(11, 0, 0, 0.1);
+
+}
+
+#block1 img{
+    width: 100%;
+    height: 40%;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+#block1 h4{
+    color: rgb(12, 12, 128);
+    margin: 30px 30px;
+    width: 50%;
+    cursor: pointer;
+
+}
+
+#block1 h4:hover{
+    color: rgb(5, 188, 249);
+}
+
+#block1 p{
+    margin: 40px 30px;
+}
+
+#block1 u{
+    margin: 30px 30px;
+    color: rgb(12, 12, 128);
+    cursor: pointer;
+
+}
+
+#block1 u:hover{
+    color: rgb(5, 188, 249);
+    text-decoration:none;
+}
+
+#block2{
+    width: 20%;
+    height: 80%;
+    background-color: white;
+    margin-right: 40px;
+    border-radius: 10%;
+    box-shadow: 0 8px 17px rgba(11, 0, 0, 0.1);
+
+}
+
+#block2 img{
+    width: 100%;
+    height: 40%;
+    border-radius: 10%;
+    cursor: pointer;
+
+}
+
+#block2 h4{
+    color: rgb(12, 12, 128);
+    margin: 30px 30px;
+    width: 50%;
+    cursor: pointer;
+
+}
+
+#block2 h4:hover{
+    color: rgb(5, 188, 249);
+}
+
+#block2 p{
+    margin: 40px 30px;
+}
+
+#block2 u{
+    margin: 30px 30px;
+    color: rgb(12, 12, 128);
+    cursor: pointer;
+
+}
+
+#block2 u:hover{
+    color: rgb(5, 188, 249);
+    text-decoration:none;
+}
+
+#block3{
+    width: 20%;
+    height: 80%;
+    background-color: white;
+    margin-right: 40px;
+    border-radius: 10%;
+    box-shadow: 0 8px 17px rgba(11, 0, 0, 0.1);
+
+}
+
+#block3 img{
+    width: 100%;
+    height: 40%;
+    border-radius: 10%;
+    cursor: pointer;
+
+}
+
+#block3 h4{
+    color: rgb(12, 12, 128);
+    margin: 30px 30px;
+    width: 50%;
+    cursor: pointer;
+
+}
+
+#block3 h4:hover{
+    color: rgb(5, 188, 249);
+}
+
+#block3 p{
+    margin: 30px 30px;
+}
+
+#block3 u{
+    margin: 30px 30px;
+    color: rgb(12, 12, 128);
+    cursor: pointer;
+
+}
+
+#block3 u:hover{
+    color: rgb(5, 188, 249);
+    text-decoration:none;
+}
+
+#block4{
+    width: 20%;
+    height: 80%;
+    background-color: white;
+    margin-right: 40px;
+    border-radius: 10%;
+    box-shadow: 0 8px 17px rgba(11, 0, 0, 0.1);
+
+}
+
+#block4 img{
+    width: 100%;
+    height: 40%;
+    border-radius: 10%;
+    cursor: pointer;
+
+}
+
+#block4 h4{
+    color: rgb(12, 12, 128);
+    margin: 30px 30px;
+    width: 50%;
+cursor: pointer;
+}
+
+#block4 h4:hover{
+    color: rgb(5, 188, 249);
+}
+
+#block4 p{
+    margin: 30px 30px;
+}
+
+#block4 u{
+    margin: 30px 30px;
+    color: rgb(12, 12, 128);
+    cursor: pointer;
+
+}
+
+#block4 u:hover{
+    color: rgb(5, 188, 249);
+    text-decoration:none;
+}
+
+#view{
+    width: 15%;
+    height: 8%;
+    background-color: white;
+    color: rgb(66, 66, 244);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40%;
+    margin-top: 10px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+#view:hover{
+    background-color:rgb(210, 239, 248);
+    color: darkblue;
+    border-color: darkblue;
+    
+}
+
+img{
+    width: 100%;
+    height: 50%;
+
+}
+
+#page3{
+    background-color: bisque;
+    width: 100%;
+    line-height-step: 90%;
+    margin-top: 270px;
+}
+
+#theory{
+    width: 100%;
+    height: 65%;
+    background-color:white;
+}
+
+#theory1{
+    width: 100%;
+    height: 90%;
+    background-color: white;
+    text-align: center;
+
+}
+
+#theory1 h1{
+    color: rgb(12, 12, 128);
+    font-size:50px;
+    
+}
+
+#theory1 p{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(31, 30, 30);
+}
+
+#btns{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 80px;
+    
+}
+
+#btn1{
+    color: white;
+    background-color: blue;
+    padding: 15px 15px;
+    width: 10%;
+    border-radius: 7px;
+    cursor: pointer;
+
+}
+
+#btn1:hover{
+        background-color: rgb(15, 15, 85);
+}
+
+#btn2{
+    color:blue;
+    background-color:white;
+    border: 1px solid blue;
+    padding: 15px 15px;
+    width: 10%;
+    margin-left: 20px;
+    border-radius: 7px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+#btn2:hover{
+    color: rgb(15, 15, 85);
+    border-color: rgb(15, 15, 85);
+    background-color: #aacbff;
+}
+
+#theory2{
+    width: 100%;
+    height: 35%;
+    background-color:white;
+}
+
+#theory2 h1{
+    color: rgb(12, 12, 128);
+    font-size:40px;
+    text-align: center;
+}
+
+#theory2 p{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(31, 30, 30);
+}
+
+#page4{
+    width: 100%;
+    height: 90%;
+    background-color:white;
+}
+
+#sales{
+    width: 100%;
+    height: 75%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+#sales1{
+    width: 26%;
+    height: 78%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:0px 0px 20px 14px rgba(11, 0, 0, 0.1);
+}
+
+#sales1 img{
+    width: 100%;
+    height: 30%;
+    object-fit:contain;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+
+#Module{
+    margin: 20px 30px;
+    background-color: skyblue;
+    color: blue;
+    width: 20%;
+    height: 8%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    color: rgb(12, 12, 106);
+    margin: 20px 30px;
+    cursor: pointer;
+
+}
+
+#sales1 p{
+    margin: 20px 30px;
+}
+
+#sales1 u{
+    margin: 20px 30px;
+    color: rgb(12, 12, 106);
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+#sales1 u:hover{
+    text-decoration: none;
+}
+
+#sales2{
+    width: 26%;
+    height: 78%;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow:0px 0px 20px 14px rgba(11, 0, 0, 0.1);
+}
+
+#sales2 img{
+    width: 100%;
+    height: 30%;
+    object-fit:contain;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+
+#sales2 p{
+    margin: 20px 30px;
+}
+
+#sales2 u{
+    margin: 20px 30px;
+    color: rgb(12, 12, 106);
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+#sales2 u:hover{
+    text-decoration: none;
+}
+
+#sales3{
+    width: 26%;
+    height: 78%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:0px 0px 20px 14px rgba(11, 0, 0, 0.1);
+}
+
+#sales3 img{
+    width: 100%;
+    height: 30%;
+    object-fit:contain;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+
+#sales3 p{
+    margin: 20px 30px;
+}
+
+#sales3 u{
+    margin: 20px 30px;
+    color: rgb(12, 12, 106);
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+#sales3 u:hover{
+    text-decoration: none;
+}
+
+#button4{
+    color:blue;
+    background-color:white;
+    border: 1px solid blue;
+    padding: 15px 15px;
+    width: 15%;
+    margin-left: 42%;
+    margin-top: 20px;
+    border-radius: 7px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+#button4:hover{
+    color: rgb(15, 15, 85);
+    border-color: rgb(15, 15, 85);
+    background-color: #aacbff;
+}
+
+
+
+
+
+
+
